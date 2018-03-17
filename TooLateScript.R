@@ -4,6 +4,8 @@ library(tidyverse)
 (trends_avail <- trends_available())
 glimpse(trends_avail)
 
+
+
 replies <- search_tweets("to:BecomingDataSci 
                          since:2017-12-25",
                          n=500)

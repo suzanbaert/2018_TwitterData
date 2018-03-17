@@ -23,7 +23,7 @@ identical(colnames(sideproject), colnames(replies_sideproject))
 sideproject <- rbind(sideproject, replies_sideproject)
 sideproject <- sideproject[!duplicated(sideproject), ]
 
-saveRDS(sideproject, "sideproject.RDS")
+saveRDS(sideproject, "data/sideproject.RDS")
 
 
 
